@@ -1,0 +1,27 @@
+{
+  "name": "react-native-template-basic-typescript",
+  "version": "0.0.2",
+  "description": "Template de react native com styled-components e react-navigation já configurados",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfelipesouza/react-native-template-basic-typescript.git"
+  },
+  "keywords": [
+    "react-native",
+    "typescript",
+    "jest",
+    "template",
+    "boilerplate",
+    "styled-components",
+    "react-navigation"
+  ],
+  "author": "Felipe Souza <joao.felipe.18.dev@gmail.com>"
+  
+}
