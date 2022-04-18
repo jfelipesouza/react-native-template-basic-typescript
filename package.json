@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-basic-typescript",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Template de react native com styled-components e react-navigation já configurados",
   "scripts": {
     "test": "exit 0"
