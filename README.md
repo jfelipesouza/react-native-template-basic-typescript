@@ -46,3 +46,7 @@ Neste template já estão configurados:
 
 - babel-plugin-transform-remove-console;
 - Contexto de tema;
+
+### Atualização da versão
+
+- Criado o contexto de temas;
