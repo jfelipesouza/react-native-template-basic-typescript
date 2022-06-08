@@ -1,11 +1,22 @@
-import React from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { StatusBar } from 'react-native'
 import { ThemeProvider } from 'styled-components'
 import Routes from './routes'
-import { light } from '../theme'
+import { light, dark } from '../theme'
+import { Context } from '../services/context'
 
 const Main: React.FC = () => {
   const [theme, setTheme] = useState(light)
+  const { isDark } = useContext(Context)
+
+  useEffect(() => {
+    if (isDark === true) {
+      setTheme(dark)
+    }
+    if (isDark === false) {
+      setTheme(light)
+    }
+  }, [isDark])
 
   return (
     <ThemeProvider theme={theme}>

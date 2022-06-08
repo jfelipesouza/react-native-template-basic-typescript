@@ -3,6 +3,7 @@ import React, { createContext, useState } from 'react'
 type ContextProps = {
   isDark: boolean
   setIsDark: React.Dispatch<React.SetStateAction<boolean>>
+  children: React.ReactNode
 }
 
 export const Context = createContext<ContextProps>({} as ContextProps)
