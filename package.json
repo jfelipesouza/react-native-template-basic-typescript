@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-basic-typescript",
-  "version": "0.0.6",
+  "version": "0.0.7-6",
   "description": "Template de react native com styled-components e react-navigation já configurados",
   "scripts": {
     "test": "exit 0"
@@ -20,8 +20,14 @@
     "template",
     "boilerplate",
     "styled-components",
-    "react-navigation"
+    "react-navigation",
+    "responsive mobile",
+    "mobile",
+    "responsive"
   ],
-  "author": "Felipe Souza <joao.felipe.18.dev@gmail.com>"
-  
+  "author": "Felipe Souza <joao.felipe.18.dev@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/jfelipesouza/react-native-template-basic-typescript/issues"
+  },
+  "homepage": "https://github.com/emin93/react-native-template-typescript#readme"
 }

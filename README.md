@@ -8,7 +8,7 @@ Para utilizar este template use:
 
 
 ```
-npx react-native link projectName --template react-native-template-basic-typescript
+npx react-native init projectName --template react-native-template-basic-typescript
 ```
 Em seguida:
 
@@ -41,12 +41,17 @@ Neste template já estão configurados:
 - Typescript;
 - Hermes;
 - Proguard;
+- Eslint;
+- Prettier;
 
 ### Configuração do desenvolvimento
 
 - babel-plugin-transform-remove-console;
 - Contexto de tema;
+- Eslint e Prettier no padrão Airbnb;
 
 ### Atualização da versão
 
-- Criado o contexto de temas;
+- Configurado padrões de desenvolvimento Airbnb;
+- Adicioando plugin do styled-components;
+- Atualizado contexto de temas da aplicação;
