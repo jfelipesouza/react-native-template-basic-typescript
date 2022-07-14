@@ -67,3 +67,4 @@
 -printconfiguration ~/tmp/full-r8-config.txt
 -keepattributes LineNumberTable,SourceFile
 -renamesourcefileattribute SourceFile
+
