@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-basic-typescript",
-  "version": "0.0.7-6",
+  "version": "0.0.8",
   "description": "Template de react native com styled-components e react-navigation já configurados",
   "scripts": {
     "test": "exit 0"
@@ -9,6 +9,7 @@
     "template",
     "template.config.js"
   ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jfelipesouza/react-native-template-basic-typescript.git"
