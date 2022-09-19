@@ -41,17 +41,24 @@ Neste template já estão configurados:
 - Typescript;
 - Hermes;
 - Proguard;
-- Eslint;
-- Prettier;
 
 ### Configuração do desenvolvimento
 
 - babel-plugin-transform-remove-console;
 - Contexto de tema;
-- Eslint e Prettier no padrão Airbnb;
+
 
 ### Atualização da versão
 
-- Configurado padrões de desenvolvimento Airbnb;
-- Adicioando plugin do styled-components;
-- Atualizado contexto de temas da aplicação;
+- Atualizada versão do React e React Native  
+- Configuração de fonts personalizadas
+- Icones
+
+
+### Observações da versão:
+
+Para adicionar novas fonts adicione na em "./assets/fonts" e use o comando: 
+
+```
+npx react-native-assets
+```

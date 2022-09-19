@@ -8,12 +8,56 @@
   "variantName": "debug",
   "elements": [
     {
-      "type": "SINGLE",
-      "filters": [],
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
       "attributes": [],
-      "versionCode": 1,
+      "versionCode": 1004,
       "versionName": "1.0",
-      "outputFile": "AndroidManifest.xml"
+      "outputFile": "x86_64/AndroidManifest.xml"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1002,
+      "versionName": "1.0",
+      "outputFile": "x86/AndroidManifest.xml"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1001,
+      "versionName": "1.0",
+      "outputFile": "armeabi-v7a/AndroidManifest.xml"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1003,
+      "versionName": "1.0",
+      "outputFile": "arm64-v8a/AndroidManifest.xml"
     }
   ],
   "elementType": "File"

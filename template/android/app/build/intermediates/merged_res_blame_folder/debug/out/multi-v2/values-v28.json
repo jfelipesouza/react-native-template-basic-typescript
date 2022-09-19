@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Apps\\mobile\\myTemplate\\template\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "com.mytemplate.app-mergeDebugResources-4:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jsouza2\\.gradle\\caches\\transforms-3\\a5da391e889210c4d2ba1ae6744f6033\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\jsouza2\\.gradle\\caches\\transforms-3\\1b40e4574e76bff5831ef4bf4270480d\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -16,14 +16,14 @@
                     "to": {
                         "startLines": "10,11,12,16",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "755,830,917,1147",
+                        "startOffsets": "755,830,917,1097",
                         "endLines": "10,11,15,19",
                         "endColumns": "74,86,12,12",
-                        "endOffsets": "825,912,1142,1384"
+                        "endOffsets": "825,912,1092,1284"
                     }
                 },
                 {
-                    "source": "C:\\Users\\jsouza2\\.gradle\\caches\\transforms-3\\19f285c5360101e74a65ffd2dd8f0c51\\transformed\\material-1.1.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\jsouza2\\.gradle\\caches\\transforms-3\\ff7f9e1ea9c2e709fffb9e018f2252cf\\transformed\\material-1.1.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
