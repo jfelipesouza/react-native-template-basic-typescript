@@ -593,12 +593,7 @@
     <item name="mtrl_child_content_container" type="id"/>
     <item name="mtrl_internal_children_alpha_tag" type="id"/>
     <item name="parent_matrix" type="id"/>
-    <item name="pointer_enter" type="id"/>
-    <item name="pointer_enter_capture" type="id"/>
-    <item name="pointer_leave" type="id"/>
-    <item name="pointer_leave_capture" type="id"/>
-    <item name="pointer_move" type="id"/>
-    <item name="pointer_move_capture" type="id"/>
+    <item name="pointer_events" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="react_test_id" type="id"/>
@@ -696,7 +691,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="alert_description" translatable="false">Alert</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
-    <string name="app_name">myTemplate</string>
+    <string name="app_name">template</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="catalyst_change_bundle_location" project="catalyst" translatable="false">Change Bundle Location</string>

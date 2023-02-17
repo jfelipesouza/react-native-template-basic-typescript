@@ -1,12 +1,19 @@
 import React from 'react'
-import { MainAplication } from './screens'
-import { ContextProvider } from './services/context'
+import { StatusBar } from 'react-native'
+import { ThemeProvider } from 'styled-components'
 
-const App: React.FC = () => {
+import { light } from './themes'
+import { Routes } from './views/routes'
+
+export const MainAplication: React.FC = () => {
   return (
-    <ContextProvider>
-      <MainAplication />
-    </ContextProvider>
+    <ThemeProvider theme={light}>
+      <Routes />
+      <StatusBar
+        backgroundColor={'transparent'}
+        translucent
+        barStyle={'dark-content'}
+      />
+    </ThemeProvider>
   )
 }
-export default App

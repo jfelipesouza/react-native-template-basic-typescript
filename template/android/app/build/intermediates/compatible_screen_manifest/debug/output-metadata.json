@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.mytemplate",
+  "applicationId": "com.template",
   "variantName": "debug",
   "elements": []
 }

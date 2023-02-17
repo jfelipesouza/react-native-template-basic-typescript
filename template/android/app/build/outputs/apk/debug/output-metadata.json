@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.mytemplate",
+  "applicationId": "com.template",
   "variantName": "debug",
   "elements": [
     {
@@ -38,19 +38,6 @@
       "filters": [
         {
           "filterType": "ABI",
-          "value": "arm64-v8a"
-        }
-      ],
-      "attributes": [],
-      "versionCode": 1003,
-      "versionName": "1.0",
-      "outputFile": "app-arm64-v8a-debug.apk"
-    },
-    {
-      "type": "ONE_OF_MANY",
-      "filters": [
-        {
-          "filterType": "ABI",
           "value": "armeabi-v7a"
         }
       ],
@@ -58,6 +45,19 @@
       "versionCode": 1001,
       "versionName": "1.0",
       "outputFile": "app-armeabi-v7a-debug.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1003,
+      "versionName": "1.0",
+      "outputFile": "app-arm64-v8a-debug.apk"
     }
   ],
   "elementType": "File"

@@ -41,24 +41,23 @@ Neste template já estão configurados:
 - Typescript;
 - Hermes;
 - Proguard;
+- Reanimated v2;
 
 ### Configuração do desenvolvimento
 
 - babel-plugin-transform-remove-console;
-- Contexto de tema;
-
 
 ### Atualização da versão
 
 - Atualizada versão do React e React Native  
-- Configuração de fonts personalizadas
+- Configurada navegação em drawer
+- Imagem em svg
 - Icones
-
 
 ### Observações da versão:
 
 Para adicionar novas fonts adicione na em "./assets/fonts" e use o comando: 
 
 ```
-npx react-native-assets
+npx react-native-asset
 ```

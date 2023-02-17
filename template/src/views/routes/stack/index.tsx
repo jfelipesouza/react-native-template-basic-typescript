@@ -1,0 +1,14 @@
+import React from 'react'
+import { createStackNavigator } from '@react-navigation/stack'
+
+import { HomeScreen } from '../../screens/Home'
+
+const { Navigator, Screen } = createStackNavigator()
+
+export const StackRoutes: React.FC = () => {
+  return (
+    <Navigator screenOptions={{ headerShown: false }}>
+      <Screen name="home" component={HomeScreen} />
+    </Navigator>
+  )
+}
