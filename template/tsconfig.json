@@ -14,7 +14,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "types": ["react-native", "styled-components-react-native"]
+    "types": ["react-native", "styled-components-react-native", "jest"]
   },
   "exclude": [
     "node_modules",
