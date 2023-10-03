@@ -1,19 +1,28 @@
 import React from 'react'
-import { StatusBar } from 'react-native'
+import { StatusBar, useColorScheme } from 'react-native'
 import { ThemeProvider } from 'styled-components'
 
-import { light } from './themes'
-import { Routes } from './views/routes'
+import { MainNavigation } from './screens/routes'
+import { DARK_THEME, LIGHT_THEME } from './theme'
 
-export const MainAplication: React.FC = () => {
+const MainApplication: React.FC = () => {
+  const theme = useColorScheme()
   return (
-    <ThemeProvider theme={light}>
-      <Routes />
+    <ThemeProvider theme={theme === 'dark' ? DARK_THEME : LIGHT_THEME}>
+      <MainNavigation />
       <StatusBar
-        backgroundColor={'transparent'}
-        translucent
-        barStyle={'dark-content'}
+        barStyle={theme === 'dark' ? 'light-content' : 'dark-content'}
+        backgroundColor={
+          theme === 'dark'
+            ? DARK_THEME.colors.background
+            : LIGHT_THEME.colors.background
+        }
       />
     </ThemeProvider>
   )
 }
+
+const App: React.FC = () => {
+  return <MainApplication />
+}
+export { MainApplication, App }

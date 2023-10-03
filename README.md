@@ -32,16 +32,19 @@ yarn android ou npm run android
 yarn ios ou npm run ios
 ```
 
+**Obs:** Adicione suas fonts dentro de **assets/fonts** na raiz do projeto e rode o comando **npx react-native-asset** no terminal.
+
 ## O que já vem configurado?
 
 Neste template já estão configurados:
 
 - Styled Components;
-- React Navigation (native e stack);
+- React Navigation;
 - Typescript;
 - Hermes;
 - Proguard;
 - Reanimated v2;
+- Lucide Icons;
 
 ### Configuração do desenvolvimento
 
@@ -49,10 +52,9 @@ Neste template já estão configurados:
 
 ### Atualização da versão
 
-- Atualizada versão do React e React Native  
-- Configurada navegação em drawer
-- Imagem em svg
-- Icones
+- Atualizada versão do React e React Native;
+- Removida a font Inter como configuração padrão;
+- Alterada configuração de Icones;
 
 ### Observações da versão:
 
