@@ -7,27 +7,20 @@ on:
 push:
   branches:
     - main
-
 jobs:
 publish-npm:
   runs-on: ubuntu-latest
   steps:
-    - name: Checkout código-fonte
+    - name: Checkout code
     - uses: actions/checkout@v3
-    
     - name: Configurar o Node.js
     - uses: actions/setup-node@v3
-
       with:
         node-version: 16  
         registry-url: "https://registry.npmjs.org"
-
-    - name: Instalar dependências        
+    - name: install dependencies        
     - run: npm ci
-    
-     - name: Publicar no npm
+     - name: publish in npm
       run: npm publish --access public
-
-
       env:
         NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
