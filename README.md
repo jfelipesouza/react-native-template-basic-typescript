@@ -1,4 +1,4 @@
-# React Native Basic Template
+# React Native Template Basic Typescript
 
 Este template foi feito e é mantido por [Felipe Souza](https://github.com/jfelipesouza) com o intuito de facilitar o começo de desenvolvimento de aplicações feitas com React Native.
 
