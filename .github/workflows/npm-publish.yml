@@ -21,8 +21,6 @@ jobs:
           registry-url: "https://registry.npmjs.org"
     
       - name: Publish in npm
-        run: npm ci
-        run: npm --no-git-tag-version version ${{ github.event.release.tag_name }}
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
