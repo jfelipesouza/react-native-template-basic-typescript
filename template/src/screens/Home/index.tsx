@@ -17,7 +17,9 @@ const HomeScreen: React.FC = () => {
   }
 
   const openLink = () => {
-    Linking.openURL('https://patreon.com/Prestos')
+    Linking.openURL(
+      'https://github.com/jfelipesouza/react-native-template-basic-typescript'
+    )
   }
 
   return (
